@@ -1,0 +1,21 @@
+{
+  "name": "orchesus",
+  "version": "1.0.0",
+  "description": "ORCHESUS writes production PRs that fold up in code review.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "openai": "^4.0.0",
+    "simple-git": "^3.22.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.0.0"
+  }
+}
